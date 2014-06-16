@@ -1,0 +1,31 @@
+{
+  "name": "usabilitydynamics/lib-wordpress-tests",
+  "version": "3.5.0",
+  "type": "wordpress-library",
+  "homepage": "https://github.com/UsabilityDynamics/lib-wordpress-tests",
+  "keywords": [
+    "tests",
+    "phpunit",
+    "wordpress"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://repository.usabilitydynamics.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor/libraries",
+    "bin-dir": "vendor/bin",
+    "optimize-autoloader": true,
+    "autoloader-suffix": "VendorPackages"
+  },
+  "require": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "classmap": [ "lib" ]
+  },
+  "license": "GNU",
+  "minimum-stability": "dev"
+}
