@@ -6,13 +6,12 @@
  */
 error_reporting( E_ALL & ~E_DEPRECATED & ~E_STRICT );
 
+$tests_dir = dirname( dirname( __FILE__ ) );
 $config_file_path = $argv[1];
-
-$config_dir = dirname( $config_file_path );
 
 define( 'WP_INSTALLING', true );
 require_once $config_file_path;
-require_once $config_dir . '/lib/functions.php';
+require_once $tests_dir . '/lib/functions.php';
 
 $_SERVER['SERVER_PROTOCOL'] = 'HTTP/1.1';
 $_SERVER['HTTP_HOST'] = WP_TESTS_DOMAIN;
