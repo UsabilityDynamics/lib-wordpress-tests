@@ -1,8 +1,8 @@
 {
-  "name": "usabilitydynamics/lib-wordpress-tests",
-  "version": "3.5.0",
+  "name": "udx/lib-wordpress-tests",
+  "version": "3.6.0",
   "type": "wordpress-library",
-  "homepage": "https://github.com/UsabilityDynamics/lib-wordpress-tests",
+  "homepage": "https://github.com/udx/lib-wordpress-tests",
   "keywords": [
     "tests",
     "phpunit",
@@ -11,7 +11,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "http://repository.usabilitydynamics.com"
+      "url": "https://repository.usabilitydynamics.com"
     }
   ],
   "config": {
